@@ -20,7 +20,7 @@ body{
     /* position: fixed; */
     width: 500px;
     height: 400px;
-    background-color: var(--main-bg-color);
+    background-color: #DDDDDD;
     border-radius: 5%;
     box-shadow: 10px 10px 5px #aaaaaa;
 }

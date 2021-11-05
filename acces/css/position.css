@@ -47,3 +47,129 @@
     border-radius:50%;
     background-color: #fff;
 }
+
+@media (max-width: 64.9375em){
+    body{
+        --main-txt-color: #4da8cc;
+    }
+    .main{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main_container{
+        /* position: fixed; */
+        width: 400px;
+        height: 300px;
+        background-color: #CCFFFF;
+        border-radius: 5%;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    .icon {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        border-radius:50%;
+        background-color: #fff;
+    } 
+    .icon_rev{
+        margin-top: 12px;
+        margin-left: 14px;
+        box-shadow: 5px 5px 3px #aaaaaa;
+    }
+
+    .icon_rev:hover{
+        cursor: pointer;
+        margin-top: 15px;
+        margin-left: 17px;
+        box-shadow: 7px 7px 5px #aaaaaa;
+    }
+    .icon_in{
+        margin-top: 8px;
+        margin-left: 8px;
+        font-size: 20px;
+    }
+    .icon__moon{
+        float: right;
+        margin:12px 14px ; 
+        box-shadow: 5px 5px 3px #aaaaaa;
+    }
+    .icon__moon:hover{
+        cursor: pointer;
+        margin: 13px 15px;
+        box-shadow: 5px 5px 3px #aaaaaa;
+    }
+    .icon_moon_in{
+        margin:8px 8px ; 
+        font-size: 20px;
+    }
+    .img_avata{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        width: 60px;
+        height: 60px;
+        clip-path: circle(27px at 53% 44%);
+        object-fit: cover;
+    }
+    p{
+        margin-left: 10px;
+    }
+    .name{
+        font-size: 20px !important;
+        text-align: center;
+        font-weight: 600;
+    }
+    .ib{
+        border: 1px solid black;
+        font-size: 15px !important;
+        border-radius: 15px;
+        box-shadow: 5px 5px 3px #aaaaaa;
+        
+    }
+    .flw{
+        border: 1px solid black;
+        font-size: 15px !important;
+        border-radius: 15px;
+        box-shadow: 5px 5px 3px #aaaaaa;
+    }
+    .ib:hover,
+    .flw:hover{
+        border: 1px outset black;
+        font-size: 16px !important;
+        box-shadow: 5px 5px 3px #aaaaaa;
+    }
+    .p_flw{
+        margin: 18px 19px;
+        font-weight: 700;
+    }
+    .p_ib{
+        margin: 18px 19px;
+        font-weight: 700;
+    }
+    
+    .icon_all{
+        font-size: 35px !important;
+        display: inline-block;
+        margin-right: -4px; 
+        margin-top: 20px;
+    }
+    .icon_all:first-child{
+        margin-left: 35px;
+    }
+    .fb:hover{
+        font-size: 40px;
+        color: rgb(39, 76, 197);
+    }
+    .ins:hover{
+        font-size: 40px;
+        color: rgb(233, 49, 36);
+    }
+    .tik:hover,.git:hover{
+        font-size: 40px;
+        color: rgb(16, 16, 17);
+    }
+}
